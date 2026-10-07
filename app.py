@@ -1,5 +1,8 @@
+
+
 def health_payload():
-return {
-"status": "ok",
-"version": "dev"
-}
+    """Return the health status of the service."""
+    return {
+        "status": "ok",
+        "version": "dev",
+    }
